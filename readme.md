@@ -13,6 +13,7 @@ download .zip
 Database:
 --------
 
-	php www/index.php orm:schema-tool:create
+	config database → /config/config.(development|production).neon
 
-	or sql → /app/sql/install.sql
+	install → php www/index.php orm:schema-tool:create
+	or sql  → /app/sql/install.sql
